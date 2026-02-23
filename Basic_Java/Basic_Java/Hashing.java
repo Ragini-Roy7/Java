@@ -10,5 +10,9 @@ public class Hashing {
         set.add(89);
         System.out.println(set);
 
+        //remove function
+        set.remove(89);
+        System.out.println("89 removed");
+
     }
 }
