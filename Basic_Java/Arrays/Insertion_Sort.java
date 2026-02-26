@@ -19,15 +19,14 @@ public class Insertion_Sort {
         //if arr[i] >arr[i-1]
         //swap
         for (int i = 1; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[i] > arr[i - 1]) {
-                    //swap
-                    int temp = arr[i];
-                    arr[i] = arr[i - 1];
-                    arr[i - 1] = temp;
-
-                }
+           //considering first ele is always sorted
+            int current=arr[i];
+            int prev=i-1;
+            while(prev>=0 && arr[prev]>current) {
+                arr[prev+1]=arr[prev];
+                prev--;
             }
+            arr[prev+1]=current;
 
         }
 
