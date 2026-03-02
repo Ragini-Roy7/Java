@@ -1,5 +1,6 @@
 package Arrays;
 //basic op
+//max  consecutive ones
 public class Max_Consecutive_Ones {
 
     public static int max_consecutive(int arr[]) {
