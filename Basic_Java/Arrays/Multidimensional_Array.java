@@ -7,6 +7,7 @@ public class Multidimensional_Array {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
 
+
             }
             //if multiplication is possible
             System.out.println();
