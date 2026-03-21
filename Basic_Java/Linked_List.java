@@ -55,9 +55,16 @@ public class Linked_List {
             Linked_List ll= new Linked_List();
             //creating objects
             ll.addFirstElement(54);
+            ll.printElement();
+
             ll.addFirstElement(89);
+            ll.printElement();
+
             ll.addLastElement(67);
+            ll.printElement();
+
             ll.addLastElement(74);
+            ll.printElement();
 
             //printing linked_list
             ll.printElement();
