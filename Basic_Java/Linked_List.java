@@ -38,6 +38,7 @@ public class Linked_List {
             tail= newNode;
 
         }
+
         public void printElement(){
             if(head==null){
                 System.out.println("Linked list is empty");
@@ -51,6 +52,27 @@ public class Linked_List {
             }
             System.out.println("null");
         }
+    public void deleteLastElement(int data) {
+        Node newNode= new Node(data);
+//            Node prevNode= new Node(data);
+        if(head==null){
+            head=tail=newNode;
+            return;
+        }
+//            data.prevNode= tail;
+//            tail=prevNode;
+        Node temp=head;
+        //traversing to second last node
+        while(temp.next !=tail){
+            temp=temp.next;
+            //moving temp reference ptr next
+            //traversing the linked_list
+        }
+
+        temp.next=null;
+        tail=temp;
+
+    }
         public static void main(String[] args) {
             Linked_List ll= new Linked_List();
             //creating objects
@@ -67,6 +89,9 @@ public class Linked_List {
             ll.printElement();
 
             //printing linked_list
+            ll.printElement();
+
+            ll.deleteLastElement(74);
             ll.printElement();
         }
     }
