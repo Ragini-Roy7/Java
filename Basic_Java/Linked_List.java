@@ -47,6 +47,7 @@ public class Linked_List {
             while(temp!= null){
                 System.out.print(temp.data + "->");
                 temp=temp.next;
+                //updating temp next node
             }
             System.out.println("null");
         }
