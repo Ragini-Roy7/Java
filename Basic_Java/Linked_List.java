@@ -73,6 +73,43 @@ public class Linked_List {
         tail=temp;
 
     }
+    public void add_at_middle(int data) {
+            Node newNode= new Node(data);
+            Node prevNode= new Node(data);
+            Node nextNode = new Node(data);
+            //taking prev_node to connect linkage b/w prev_node and new_node
+        //break linkage b/w node and node.next
+        //middle insertion possible only if more than head and tail nodes exist
+        if(head==null ){
+            head=tail=newNode;
+            return;
+        }
+        Node temp=head;
+//        if(temp.next!=tail) {
+//            //only then insertion at mid is possible
+//            prevNode.next= newNode;
+//            newNode.next= nextNode;
+        //newNode doesn`t exist in the list
+       //find mid
+        int size=0;
+        while(temp!=null) {
+            size++;
+            temp= temp.next;
+            //traversing temp to whole linked list
+            int mid=size/2;
+            temp=head;
+            //one index back mid-1
+            for(int i=0;i<mid-1;i++) {
+                temp=temp.next;
+            }
+            //insertion
+            newNode.next= temp.next;
+            //new node linkage b/w next node
+            temp.next= newNode;
+        }
+//        }
+
+    }
         public static void main(String[] args) {
             Linked_List ll= new Linked_List();
             //creating objects
@@ -92,6 +129,9 @@ public class Linked_List {
             ll.printElement();
 
             ll.deleteLastElement(74);
+            ll.printElement();
+
+            ll.add_at_middle(67);
             ll.printElement();
         }
     }
