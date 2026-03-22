@@ -110,6 +110,24 @@ public class Linked_List {
 //        }
 
     }
+    void add_at_given_index(int index,int data){
+            Node newNode= new Node(data);
+            Node temp=head;
+            int i=0;
+            //head of linked-list marked as temp
+        //we need to traverse the linked-list until index-1
+        //last index itself is tail
+        while(i<index-1){
+            //move temp var
+            temp=temp.next;
+            i++;
+        }
+        //connecting new_node to temp reference
+        //temp is pointing forward to other nodes
+        newNode.next= temp.next;
+        temp.next= newNode;
+
+    }
         public static void main(String[] args) {
             Linked_List ll= new Linked_List();
             //creating objects
@@ -132,6 +150,9 @@ public class Linked_List {
             ll.printElement();
 
             ll.add_at_middle(67);
+            ll.printElement();
+
+            ll.add_at_given_index(1,44);
             ll.printElement();
         }
     }
