@@ -1,12 +1,13 @@
 package Stack;
 import java.util.*;
+//we are storing the only element is NGE is found else if popping it out from stack
+// if stack gets empty during performing operation , then return -1
 
 public class NextGreater_Lc {
     public static int[] nge(int[] arr) {
         int n = arr.length;
         int[] res = new int[n];
         Stack<Integer> stack = new Stack<>();
-
         for (int i = n - 1; i >= 0; i--) {
 
             while (!stack.isEmpty() && stack.peek() <= arr[i]) {
@@ -24,6 +25,7 @@ public class NextGreater_Lc {
 
         return res;
     }
+
 
     public static void main(String[] args) {
         int[] arr = {4, 5, 2, 10};
