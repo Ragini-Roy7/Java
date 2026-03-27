@@ -16,6 +16,7 @@ public class Next_Greater_Circular {
                 else res[i] = stack.peek();
             }
 
+            //this gives index access and thus prevents forward and backward traversal time complexity
             stack.push(nums[i % n]);
         }
 
