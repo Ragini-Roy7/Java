@@ -28,7 +28,7 @@ public class Next_Greater_Circular {
     public static void main(String[] args) {
         Next_Greater_Circular obj = new Next_Greater_Circular();
        int [] nums= {1,2,1};
-       int[] res= obj.nextGreaCterElements(nums);
+       int[] res= obj.nextGreaterElements(nums);
         System.out.println(Arrays.toString(res));
 
 
