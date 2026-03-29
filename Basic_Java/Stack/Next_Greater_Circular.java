@@ -1,5 +1,7 @@
 package Stack;
 import java.util.*;
+//to simulate circular array behaviour used hypothetical index div by mod current_element
+//i % n
 public class Next_Greater_Circular {
     public int[] nextGreaterElements(int[] nums) {
         int n=nums.length;
@@ -26,7 +28,7 @@ public class Next_Greater_Circular {
     public static void main(String[] args) {
         Next_Greater_Circular obj = new Next_Greater_Circular();
        int [] nums= {1,2,1};
-       int[] res= obj.nextGreaterElements(nums);
+       int[] res= obj.nextGreaCterElements(nums);
         System.out.println(Arrays.toString(res));
 
 
