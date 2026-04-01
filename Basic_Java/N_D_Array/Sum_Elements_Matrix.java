@@ -1,7 +1,7 @@
-package N_D_Array;
+//package N_D_Array;
 import java.util.*;
 
-public class Sum_Elements {
+public class Sum_Elements_Matrix {
     public static void main(String[] args) {
         System.out.println("Enter no of rows");
         Scanner sc= new Scanner(System.in);

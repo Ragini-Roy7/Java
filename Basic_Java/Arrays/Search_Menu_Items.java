@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Search_Menu {
+public class Search_Menu_Items {
 
     public static boolean search_menu(String[] name, String key) {
 
