@@ -1,4 +1,4 @@
-package N_D_Array;
+//package N_D_Array;
 import java.util.*;
 
 public class Transpose_Matrix {
