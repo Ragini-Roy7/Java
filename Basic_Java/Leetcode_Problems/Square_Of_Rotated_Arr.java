@@ -1,5 +1,6 @@
 package Leetcode_Problems;
 import java.util.Arrays;
+
 public class Square_Of_Rotated_Arr {
     public static int[] sortedSquares(int[] arr) {
         int n = arr.length;
