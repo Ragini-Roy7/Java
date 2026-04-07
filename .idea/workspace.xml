@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ab57955-5572-43f7-8a1c-f9fec5290f46" name="Changes" comment="Diagonal_Sum">
+      <change afterPath="$PROJECT_DIR$/Basic_Java/OOP/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Java/OOP/vehicle/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Java/OOP/Access_Modifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Java/OOP/Access_Modifiers.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;Ragini-Roy7&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;,
+    &quot;assignee&quot;: &quot;Ragini-Roy7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ragini-Roy7/Java.git&quot;,
+    &quot;accountId&quot;: &quot;f78a8946-714c-4327-a5a4-cb1679feb673&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3A3laz3zE8ySLABxHecVzOGn548" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ASCII.executor": "Run",
+    "Application.ASCII_Lowercase.executor": "Run",
+    "Application.Access_Modifiers.executor": "Run",
+    "Application.Array_Arguments.executor": "Run",
+    "Application.Atleast_Two_Greater.executor": "Run",
+    "Application.Atleast_Two_Greater_Sort.executor": "Run",
+    "Application.Basic_Declaration.executor": "Run",
+    "Application.Bike.executor": "Run",
+    "Application.Binary_Search.executor": "Run",
+    "Application.Bubble_Sort.executor": "Run",
+    "Application.Check_Sorted_Array.executor": "Run",
+    "Application.Collections.executor": "Run",
+    "Application.Count_Num.executor": "Run",
+    "Application.Countries_At_War.executor": "Run",
+    "Application.Diagonal_Sum.executor": "Run",
+    "Application.Find_Duplicates.executor": "Run",
+    "Application.First_Occurrance.executor": "Run",
+    "Application.ForEach.executor": "Run",
+    "Application.Hash_Maps.executor": "Run",
+    "Application.Hashing.executor": "Run",
+    "Application.Input_Array.executor": "Run",
+    "Application.Insertion_Sort.executor": "Run",
+    "Application.Is_Vowels.executor": "Run",
+    "Application.Kadane_Test_Case.executor": "Run",
+    "Application.Kandane_Algorithm.executor": "Run",
+    "Application.Largest_Smallest.executor": "Run",
+    "Application.Largest_Smallest_Ele.executor": "Run",
+    "Application.Left_Array_Rotate.executor": "Run",
+    "Application.Linear_Search.executor": "Run",
+    "Application.Linked_List.executor": "Run",
+    "Application.Max_Consecutive_Ones.executor": "Run",
+    "Application.Max_Row_Sum.executor": "Run",
+    "Application.Max_Subarray_Sum.executor": "Run",
+    "Application.Max_Substring.executor": "Run",
+    "Application.Min_From_Max_Ele.executor": "Run",
+    "Application.Move_To_Zeroes.executor": "Run",
+    "Application.Multidimensional_Array.executor": "Run",
+    "Application.My_Class.executor": "Run",
+    "Application.NextGreater_Lc.executor": "Run",
+    "Application.Next_Greater_Circular.executor": "Run",
+    "Application.Next_Greater_Ele.executor": "Run",
+    "Application.Number_Square.executor": "Run",
+    "Application.Pairs_In_Array.executor": "Run",
+    "Application.Pattern_ASCII.executor": "Run",
+    "Application.Reverse_Array.executor": "Run",
+    "Application.Search_2D_Array.executor": "Run",
+    "Application.Search_In_Sorted_Arr.executor": "Run",
+    "Application.Search_Menu.executor": "Run",
+    "Application.Selection_Sort.executor": "Run",
+    "Application.Smaller_Larger.executor": "Run",
+    "Application.Square_Of_Rotated_Arr.executor": "Run",
+    "Application.Star.executor": "Run",
+    "Application.Str.executor": "Run",
+    "Application.String_Interning.executor": "Run",
+    "Application.String_builder.executor": "Run",
+    "Application.SubArrays.executor": "Run",
+    "Application.Sum_Elements.executor": "Run",
+    "Application.Sum_Elements_Matrix.executor": "Run",
+    "Application.Sum_Of_Nums.executor": "Run",
+    "Application.Transpose_Matrix.executor": "Run",
+    "Application.Two_D_Array.executor": "Run",
+    "Application.User_Defined_Matrix.executor": "Run",
+    "Java Scratch.Reverse_Array.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "C:/Users/ragin/IdeaProjects/Java_Basic/Basic_Java/OOP",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Insertion_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Insertion_Sort" />
+      <module name="Java_Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Max_Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Max_Substring" />
+      <module name="Java_Basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Insertion_Sort" />
+        <item itemvalue="Application.Max_Substring" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ab57955-5572-43f7-8a1c-f9fec5290f46" name="Changes" comment="" />
+      <created>1771829201757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771829201757</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Hashing_Intro">
+      <option name="closed" value="true" />
+      <created>1771829354584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771829354584</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hashing_Intro">
+      <option name="closed" value="true" />
+      <created>1771829439240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771829439240</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hashing_Intro">
+      <option name="closed" value="true" />
+      <created>1771829670212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771829670212</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Find Duplicate Optimal Sol">
+      <option name="closed" value="true" />
+      <created>1771833588427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771833588427</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Linear Search">
+      <option name="closed" value="true" />
+      <created>1771874413227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771874413228</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Linear Search">
+      <option name="closed" value="true" />
+      <created>1771874554224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771874554224</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Linear Search">
+      <option name="closed" value="true" />
+      <created>1771874588724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771874588724</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Binary Search Implemented">
+      <option name="closed" value="true" />
+      <created>1771940756974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771940756975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reverse Array">
+      <option name="closed" value="true" />
+      <created>1771945188095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771945188095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Array Basic">
+      <option name="closed" value="true" />
+      <created>1771954206561</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771954206562</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Array Basic">
+      <option name="closed" value="true" />
+      <created>1771956663851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771956663851</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Array Basic">
+      <option name="closed" value="true" />
+      <created>1771958819243</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771958819243</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Array Basic">
+      <option name="closed" value="true" />
+      <created>1772028925579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772028925579</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Basic_Java/Arrays/SubArrays.java">
+      <option name="closed" value="true" />
+      <created>1772029020591</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772029020591</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772032135258</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772032135258</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772043393655</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772043393655</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772044111558</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772044111558</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772044126645</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772044126645</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772079666512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772079666512</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772079675129</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772079675129</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772079699447</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1772079699447</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772079749102</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1772079749102</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch">
+      <option name="closed" value="true" />
+      <created>1772475602764</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1772475602765</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge branch 'main' of https://github.com/Ragini-Roy7/Java&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <option name="closed" value="true" />
+      <created>1772475608287</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1772475608287</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge branch 'main' of https://github.com/Ragini-Roy7/Java&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <option name="closed" value="true" />
+      <created>1772475618733</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1772475618733</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Diagonal_Sum">
+      <option name="closed" value="true" />
+      <created>1774963868216</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774963868216</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Hashing_Intro" />
+    <MESSAGE value="Find_Duplicates.java" />
+    <MESSAGE value="Added Basic Functions" />
+    <MESSAGE value="Find Duplicate Optimal Sol" />
+    <MESSAGE value="Linear Search" />
+    <MESSAGE value="Binary Search Implemented" />
+    <MESSAGE value="Reverse Array" />
+    <MESSAGE value="Array Basic" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Basic_Java/Arrays/SubArrays.java" />
+    <MESSAGE value="Merge remote-tracking branch" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/Ragini-Roy7/Java&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
+    <MESSAGE value="Diagonal_Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diagonal_Sum" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic_Java/Arrays/Atleast_Two_Greater.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic_Java/Arrays/Atleast_Two_Greater.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic_Java/N_D_Array/Basic_Declaration.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

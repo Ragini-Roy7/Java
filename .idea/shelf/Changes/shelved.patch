@@ -1,0 +1,81 @@
+Index: Basic_Java/Basic_Java/Hashing.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Basic_Java/Basic_Java/Hashing.java b/Basic_Java/Hash/Hashing.java
+rename from Basic_Java/Basic_Java/Hashing.java
+rename to Basic_Java/Hash/Hashing.java
+--- a/Basic_Java/Basic_Java/Hashing.java	(revision c2736250789b0c4da19ec41417e3aba8f9e13dce)
++++ b/Basic_Java/Hash/Hashing.java	(date 1771831984649)
+@@ -1,4 +1,4 @@
+-package Basic_Java;
++package Hash;
+ import java.util.HashSet;
+ import java.util.Iterator;
+ 
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Compiled class file\r\n*.class\r\n\r\n# Log file\r\n*.log\r\n\r\n# BlueJ files\r\n*.ctxt\r\n\r\n# Mobile Tools for Java (J2ME)\r\n.mtj.tmp/\r\n\r\n# Package Files #\r\n*.jar\r\n*.war\r\n*.nar\r\n*.ear\r\n*.zip\r\n*.tar.gz\r\n*.rar\r\n\r\n# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\r\nhs_err_pid*\r\nreplay_pid*\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision c2736250789b0c4da19ec41417e3aba8f9e13dce)
++++ b/.gitignore	(date 1771829923272)
+@@ -22,3 +22,12 @@
+ # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+ hs_err_pid*
+ replay_pid*
++#Intellij
++.idea/
++*.iml/
++
++#compiled files
++*.class
++out/
++#vs code
++.vscode/
+Index: Basic_Java/Hash/Find_Duplicates.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Basic_Java/Hash/Find_Duplicates.java b/Basic_Java/Hash/Find_Duplicates.java
+new file mode 100644
+--- /dev/null	(date 1771833072710)
++++ b/Basic_Java/Hash/Find_Duplicates.java	(date 1771833072710)
+@@ -0,0 +1,32 @@
++package Hash;
++import java.util.ArrayList;
++import java.util.HashSet;
++import java.util.Collections;
++
++
++public class Find_Duplicates {
++    public static void main(String[] args) {
++//        creating hashSet()
++        HashSet<Integer> seen= new HashSet<>();
++       HashSet<Integer> duplicates= new HashSet<>();
++        int [] arr={1,2,6,2,4,4,3,3,3,6,6};
++
++        //(seen.contains(num)) {
++        //    duplicates.add(num);
++        //} else {
++        //    seen.add(num);
++        //}
++
++        for(int num:arr) {
++            if(!seen.contains(num)) {
++              duplicates.add(num);
++            }
++        }
++        System.out.println("duplicate found");
++        System.out.println(duplicates);
++        //to get sorted order
++        ArrayList<Integer> list= new ArrayList<> (duplicates);
++        Collections.sort(list);
++        System.out.println(list);
++    }
++}
