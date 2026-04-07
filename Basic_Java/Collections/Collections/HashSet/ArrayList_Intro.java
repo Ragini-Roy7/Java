@@ -1,4 +1,4 @@
-package Collections;
+package Collections.HashSet;
 import java.util.ArrayList;
 import java.util.*;
 //without importing util library , java does convert it into ArrayList of object
