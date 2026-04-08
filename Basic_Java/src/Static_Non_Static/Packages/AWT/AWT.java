@@ -4,9 +4,8 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-// Driver Class
 public class AWT {
-    // main function
+
     public static void main(String[] args)
     {
         // Declaring a Frame and Label
@@ -15,6 +14,14 @@ public class AWT {
 
         // Aligning the label to CENTER
         label.setAlignment(Label.CENTER);
+
+        //creating buttons
+        Button btn= new Button("Click Here");
+        btn.setBounds(80,100,64,30);
+        frame.add(btn);
+        frame.setSize(300,300);
+        frame.setLayout(null);
+        frame.setVisible(true);
 
         // Adding Label and Setting the Size of the Frame
         frame.add(label);
