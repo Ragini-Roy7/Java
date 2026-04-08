@@ -1,6 +1,6 @@
 package src.Static_Non_Static.Packages;
 import java.util.Random;
-public class Random_Package {
+public class Password_Generator {
     public static void main(String[] args) {
 //        Random rand= new Random();
 //        int n= rand.nextInt(100);
