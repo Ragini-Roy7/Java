@@ -2,7 +2,7 @@ package src.Static_Non_Static;
 
     // Class 1
 // Helper class
-    class Helper {
+    class Helper_fun{
 
         // Static method
         public static int sum(int a, int b)
@@ -12,7 +12,7 @@ package src.Static_Non_Static;
     }
 
     // Class 2
-    class GFG {
+    class Geeks{
 
         public static void main(String[] args)
         {
@@ -20,7 +20,7 @@ package src.Static_Non_Static;
 
             // Calling the static method of above class
             // and storing sum in integer variable
-            int s = Helper.sum(n, m);
+            int s = Helper_fun.sum(n, m);
 
 
             System.out.print("sum is = " + s);
