@@ -38,6 +38,7 @@ class LeadersInArray {
             if (arr[i] >= maxRight) {
                 maxRight = arr[i];
                 leaders.add(arr[i]);
+
             }
         }
 

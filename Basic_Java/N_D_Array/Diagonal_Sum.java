@@ -1,4 +1,4 @@
-package N_D_Array;
+package Basic_Java.N_D_Array;
 import java.util.*;
 
 public class Diagonal_Sum {
