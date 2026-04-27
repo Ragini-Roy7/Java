@@ -1,4 +1,4 @@
-package Basic_Java.src.Static_Non_Static.Greedy;
+package src.Static_Non_Static.Greedy;
 import java.util.Arrays;
 //public class Coin_Change {
 //    public class
