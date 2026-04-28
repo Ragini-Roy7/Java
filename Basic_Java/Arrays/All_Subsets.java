@@ -6,7 +6,12 @@ public class All_Subsets {
     static void subsets(int index, int[] arr, int currentSum,int target,List<Integer>curr){
 //        int[] arr= {2,4,5,3};
 //       static int count=0;
-
+//backtracking is undoing all the prev states
+        // in subsets-> { 2,4,5,3,3} will be polluted subset where 3 is repeated
+        //to trace unique subset verification, we need to backtrack and remove polluted elements
+        //although recursive calls lead to recomputation of already calc results
+        //where memoization tech of dp comes in
+        //memoization remembers already computed values
 
 
 
@@ -24,6 +29,7 @@ public class All_Subsets {
         //base case -> if index reached to its length stop making recursive calls
         if(index==arr.length){
             if(currentSum==target){
+                //at base case we will have all possible subsets thus computing sum at the base case
                 count++;
             }
 
