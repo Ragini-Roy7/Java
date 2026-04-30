@@ -41,36 +41,36 @@
 //     }
 // }
 
-public class Find_Index {
-    public static void main(String[] args) {
-
-        int arr[] = {1,2,3,4,5,5};
-        int key = 5;
-
-        int firstIndex = -1;
-        int lastIndex = -1;
-
-        // find  first and last occurrence
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] == key) {
-                if(firstIndex == -1) {
-                    firstIndex = i;   // first time found
-                }
-                lastIndex = i;        // keeps updating
-            }
-        }
-
-        System.out.println("First Occurrence: " + firstIndex);
-        System.out.println("Last Occurrence: " + lastIndex);
-
-        //  duplicates
-        System.out.println("Duplicate elements:");
-        for(int i = 0; i < arr.length; i++) {
-            for(int j = i + 1; j < arr.length; j++) {
-                if(arr[i] == arr[j]) {
-                    System.out.println(arr[i] + " at index " + i + " and " + j);
-                }
-            }
-        }
-    }
-}
+//public class Find_Index {
+//    public static void main(String[] args) {
+//
+//        int arr[] = {1,2,3,4,5,5};
+//        int key = 5;
+//
+//        int firstIndex = -1;
+//        int lastIndex = -1;
+//
+//        // find  first and last occurrence
+//        for(int i = 0; i < arr.length; i++) {
+//            if(arr[i] == key) {
+//                if(firstIndex == -1) {
+//                    firstIndex = i;   // first time found
+//                }
+//                lastIndex = i;        // keeps updating
+//            }
+//        }
+//
+//        System.out.println("First Occurrence: " + firstIndex);
+//        System.out.println("Last Occurrence: " + lastIndex);
+//
+//        //  duplicates
+//        System.out.println("Duplicate elements:");
+//        for(int i = 0; i < arr.length; i++) {
+//            for(int j = i + 1; j < arr.length; j++) {
+//                if(arr[i] == arr[j]) {
+//                    System.out.println(arr[i] + " at index " + i + " and " + j);
+//                }
+//            }
+//        }
+//    }
+//}
