@@ -5,8 +5,12 @@ public class Power_X {
         if(n==1){
             return x;
         }
-        int power= calc_pow(x,n-1);
-        return x*power;
+        if(n==0){
+            return 1;
+        }
+//        int power= calc_pow(x,n-1);
+//        return x*power;
+        return x*calc_pow(x,n-1);
     }
 
     public static void main(String[] args) {
