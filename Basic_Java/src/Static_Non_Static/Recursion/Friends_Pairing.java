@@ -30,7 +30,7 @@ public class Friends_Pairing {
     }
 
     public static void main(String[] args) {
-        int n=4;
+        int n=3;
 //        total_ways(n);
         System.out.println(total_ways(n));
     }
