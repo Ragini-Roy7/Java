@@ -12,7 +12,7 @@ public class Digits_Intro_Strings {
         //got last val using modulo
         int last_digit= n%10;
           //ie.print_digit_intoStrings(201) now
-        //likwise  print_digit_intoStrings(20)
+        //likewise  print_digit_intoStrings(20)
         //(0)
         //(2)
 //        n % 10 → extracts last digit
