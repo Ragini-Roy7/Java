@@ -1,5 +1,6 @@
 package src.Static_Non_Static.Recursion;
-
+//mathematical approach
+//extraction based
 public class Count_Digits {
     public static int count_digits(int n){
         if(n==1){
