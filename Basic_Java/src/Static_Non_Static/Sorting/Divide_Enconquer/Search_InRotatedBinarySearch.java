@@ -2,6 +2,9 @@ package src.Static_Non_Static.Sorting.Divide_Enconquer;
 
 public class Search_InRotatedBinarySearch {
     public static int search(int arr[], int tar, int si, int ei) {
+        if (si > ei) {
+            return -1;
+        }
         //divide and conquer -> divided the arr into two halves
         int mid = si + (ei - si) / 2;
         if (arr[mid] == tar) {
@@ -29,7 +32,7 @@ public class Search_InRotatedBinarySearch {
     }
         public static void main (String[]args){
         int []arr= {4,5,6,7,0,1,2,3};
-        int tar=0;
+        int tar=6;
       int tar_index=  search(arr,tar,0,arr.length-1);
             System.out.println(tar_index);
 
