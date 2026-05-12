@@ -1,6 +1,7 @@
 public class Prefix_Sum {
     public static int prefix_sum(int[] arr){
         //o(n)
+        //using single loop
         int length=arr.length;
         int i = 0,sum=0;
         for(int n=1; i<length;i++){
