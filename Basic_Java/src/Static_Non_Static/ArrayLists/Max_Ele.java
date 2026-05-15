@@ -8,6 +8,7 @@ public class Max_Ele {
         list.add(44);
         list.add(89);
         //using math.min()
+        //uses o(n)
         int max_ele= Integer.MIN_VALUE;
          for(int i=0;i<list.size();i++) {
              max_ele= Math.max(max_ele,list.get(i));
