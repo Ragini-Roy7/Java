@@ -12,6 +12,12 @@ public class Sort {
         System.out.println("initial list: "+l);
         Collections.sort(l);
         System.out.println("sorted list: "+l);
+        //descending
+        //comparators in java defines method to implement some functions within it
+
+        Collections.sort(l,Collections.reverseOrder());
+        System.out.println(l);
+
     }
 
     public static void main(String[] args) {
