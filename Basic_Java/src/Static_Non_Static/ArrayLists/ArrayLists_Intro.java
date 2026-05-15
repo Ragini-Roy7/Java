@@ -6,7 +6,16 @@ public class ArrayLists_Intro {
         list.add(676);
         list.add(643);
         list.add(676);
+        list.add(2,68); //o(n)
         list.remove(1);
+
+        System.out.println("size of arraylist : "+list.size());
+        for(int i=0;i<list.size();i++){
+            //accessing ele using get
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.println();
+
         return list;
     }
   public static ArrayList<String> StringListPrint() {
@@ -26,5 +35,12 @@ public class ArrayLists_Intro {
         ArrayList<String> string_list= StringListPrint();
         System.out.println(arraylist);
         System.out.println(string_list);
+        System.out.println(string_list.get(2));
+        //using set func
+        string_list.set(3,"Ramisha");
+        System.out.println("Updated string arraylist :"+string_list);
+        //contains
+        System.out.println(string_list.contains("Ram"));
+
     }
 }
