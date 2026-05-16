@@ -1,4 +1,4 @@
-package Arrays;
+//package Arrays;
 
 public class Max_Subarray_Sum {
     //prefix sum
