@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
+//backtracking explores branches until there's a dead emd then undo calls 
 public class All_Subsets {
     static int count=0;
     static void subsets(int index, int[] arr, int currentSum,int target,List<Integer>curr){
