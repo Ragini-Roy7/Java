@@ -49,7 +49,7 @@ Basic_Java/
 * Stacks
 * Hashing
 * Pattern-based problems
-* Problem-solving from platforms like **GeeksforGeeks** and **LeetCode**
+* Problem-solving from platforms like **GeeksforGeeks** and **LeetCode** and neetcode
 
 
 ## 🧠 Learning Goals
