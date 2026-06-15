@@ -3,26 +3,6 @@
 This repository contains my **Java learning journey**, covering **core Java fundamentals, Data Structures & Algorithms (DSA), and Object-Oriented Programming (OOP)** concepts.
 It is a continuously evolving collection of **practice problems, implementations, and concept-based examples** written while strengthening my programming foundations.
 
-
-## 📂 Repository Structure
-
-The repository is organized topic-wise for clarity and easy navigation:
-
-Basic_Java/
-│
-├── Arrays/                 # 1D & 2D array problems
-├── N_D_Array/              # Multi-dimensional array practice
-├── String/                 # String manipulation & logic problems
-├── Stack/                  # Stack-based problems
-├── Linked_List/            # Linked list implementations
-├── Hash/                   # Hashing concepts & problems
-├── Leetcode_Problems/      # LeetCode practice solutions
-├── Patterns/               # Pattern printing programs
-├── OOP/                    # Classes, Objects, Access Modifiers, Constructors
-│
-├── Alternative_Sorting.java
-├── ArrayListEx.java            # IDE configuration (IntelliJ)
-
 ## Topics Covered
 
 ### 🔹 Core Java
