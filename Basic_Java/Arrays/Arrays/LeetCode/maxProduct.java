@@ -22,7 +22,7 @@ public class maxProduct {
     }
 
     public static void main(String[] args) {
-        int[]nums= {3,4,-1,3};
+        int[]nums= {3,-4,-1,3};
         int res=maxProd(nums);
         System.out.println(res);
     }
