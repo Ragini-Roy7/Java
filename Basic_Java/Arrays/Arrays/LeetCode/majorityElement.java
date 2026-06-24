@@ -1,7 +1,7 @@
 package Arrays.LeetCode;
 import java.util.*;
 class majorityEle {
-    public List<Integer> majorityElement(int[] nums) {
+    public static List<Integer> majorityElement(int[] nums) {
         int n = nums.length;
 
         int candidate1 = 0, candidate2 = 0;
@@ -43,7 +43,11 @@ class majorityEle {
     }
 
     public static void main(String[] args) {
-        int n[]= {1,2,3};
+        int[] nums = {3, 2, 3};
+        List<Integer> result = majorityEle.majorityElement(nums);
+
+        System.out.println(result);
+
 
     }
 }
