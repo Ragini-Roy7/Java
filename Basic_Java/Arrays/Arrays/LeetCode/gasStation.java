@@ -9,7 +9,7 @@ public class gasStation {
         for (int i = 0; i < gas.length; i++) {
 
             int diff = gas[i] - cost[i];
-
+            //simulating
             total += diff;
             tank += diff;
 
