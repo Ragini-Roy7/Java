@@ -27,6 +27,14 @@ public class HashMapIntro {
             System.out.println(entry.getKey() + "->" + entry.getValue());
         }
 
+        //contains->true or false returned
+        System.out.println(hm.containsKey("Pakistan"));
+        System.out.println(hm.size());
+        System.out.println(hm.isEmpty());
+        //iterate
+        Set<String> keys= hm.keySet();
+        System.out.println(keys);
+
     }
 
 
