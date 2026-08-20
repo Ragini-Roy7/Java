@@ -3,6 +3,8 @@ import java.util.*;
 public class snackForStudents {
     public static int maxNoStudents(int[] students, int[] snacks){
         //give student snacks as per their hunger level
+        Arrays.sort(students);
+        Arrays.sort(snacks);
         int count=0;
         int i=0; //students ptr
         int j=0; //snacks pointer
