@@ -1,5 +1,6 @@
+import java.util.*;
 public class minCandies {
-    public int distributeCandies(int[] candyType) {
+    public static int distributeCandies(int[] candyType) {
 
         HashSet<Integer> set = new HashSet<>();
 
@@ -8,5 +9,10 @@ public class minCandies {
         }
 
         return Math.min(set.size(), candyType.length / 2);
+    }
+
+    public static void main(String[] args) {
+        int[]candyType= {1,1,2,2};
+        System.out.println(distributeCandies(candyType));
     }
 }

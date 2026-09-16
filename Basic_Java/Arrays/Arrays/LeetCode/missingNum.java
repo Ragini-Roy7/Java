@@ -16,7 +16,7 @@ public class missingNum {
     }
 
     public static void main(String[] args) {
-        int[] nums={1,0,3};
-        System.out.println( missingNum(nums));
+//        int[] nums={1,0,3};
+//        System.out.println(new missingNum());
     }
 }
