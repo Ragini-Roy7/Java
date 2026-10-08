@@ -12,6 +12,7 @@ public class rotateArray {
         for (int i = m ; i < n; i++) {
             //mapping the result[] with index j so that each time res gets updated, index gets inc by+1
             //create new arr and merge both the arrays
+
            result[j]= arr[i];
           j++;
 
