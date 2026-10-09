@@ -48,7 +48,7 @@ public class rotateArrTwoPointers {
 
         int n = arr.length;
 
-        // Handle k greater than array length
+        // k greater than array length
         k = k % n;
 
         // Step 1: Reverse entire array
